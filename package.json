@@ -1,6 +1,6 @@
 {
   "name": "obdots",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create dot-path strings of nested objects",
   "main": "lib/obdots.js",
   "scripts": {
