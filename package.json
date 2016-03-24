@@ -1,8 +1,11 @@
 {
   "name": "obdots",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Create dot-path strings of nested objects",
   "main": "lib/obdots.js",
+  "scripts": {
+    "test": "tests/tests.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/eipromb/obdots.git"
@@ -18,5 +21,9 @@
   ],
   "author": "Jason Tran <jason@makepigeonpie.com> (http://www.makepigeonpie.com/)",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "vows": "^0.8.1"
+  }
 }
